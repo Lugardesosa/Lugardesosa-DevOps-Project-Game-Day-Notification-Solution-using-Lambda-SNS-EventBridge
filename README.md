@@ -39,21 +39,15 @@ game-day-notifications/
 ├── .gitignore
 └── README.md                        # Project documentation
 
-game-day-notifications/
-├── src/
-│   ├── gd_notifications.py          # Main Lambda function code
-├── policies/
-│   ├── gb_sns_policy.json           # SNS publishing permissions
-│   ├── gd_eventbridge_policy.json   # EventBridge to Lambda permissions
-│   └── gd_lambda_policy.json        # Lambda execution role permissions
-├── .gitignore
-└── README.md                        # Project documentation
-
 
 **Setup Instructions**
+
 **Clone the Repository**
+
 git clone https://github.com/ifeanyiro9/game-day-notifications.git
+
 cd game-day-notifications
+
 Create an SNS Topic
 Open the AWS Management Console.
 Navigate to the SNS service.
