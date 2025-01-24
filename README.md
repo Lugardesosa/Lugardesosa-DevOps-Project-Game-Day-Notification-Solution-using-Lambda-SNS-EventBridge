@@ -53,7 +53,7 @@ game-day-notifications/
 
 ### **Clone the Repository**
 ```bash
-git clone https://github.com/ifeanyiro9/game-day-notifications.git
+git clone https://github.com/Lugardesosa/Lugardesosa-DevOps-Project-Game-Day-Notification-Solution-using-Lambda-SNS-EventBridge.git
 cd game-day-notifications
 ```
 
