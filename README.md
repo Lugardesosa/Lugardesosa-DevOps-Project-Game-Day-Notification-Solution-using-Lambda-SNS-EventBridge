@@ -15,7 +15,7 @@ Personal AWS account with basic understanding of AWS and Python
 
 **Technical Architecture**
 
-![Architecture Diagram](DevOps Project: Game Day Notification Solution — using Lambda, SNS & EventBridge)
+![Architecture Diagram](DevOps Project Game Day Notification Solution — using Lambda, SNS & EventBridge.png)
 
 
 **Technologies**
