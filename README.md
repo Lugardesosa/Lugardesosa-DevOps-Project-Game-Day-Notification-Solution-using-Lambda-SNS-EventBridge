@@ -1,31 +1,33 @@
 # Lugardesosa-DevOps-Project-Game-Day-Notification-Solution-using-Lambda-SNS-EventBridge
-NBA Game Day Notifications / Sports Alerts System
-Project Overview
+**NBA Game Day Notifications / Sports Alerts System**
+**Project Overview**
 This project is an alert system that sends real-time NBA game day score notifications to subscribed users via SMS/Email. It leverages Amazon SNS, AWS Lambda and Python, Amazon EvenBridge and NBA APIs to provide sports fans with up-to-date game information. The project demonstrates cloud computing principles and efficient notification mechanisms.
 
-Features
+**Features**
 Fetches live NBA game scores using an external API.
 Sends formatted score updates to subscribers via SMS/Email using Amazon SNS.
 Scheduled automation for regular updates using Amazon EventBridge.
 Designed with security in mind, following the principle of least privilege for IAM roles.
 
-Prerequisites
+**Prerequisites**
 Free account with subscription and API Key at sportsdata.io
 Personal AWS account with basic understanding of AWS and Python
 
-Technical Architecture
+**Technical Architecture**
 
-![Screenshot 2025-01-22 135231](https://github.com/user-attachments/assets/7e724e2a-1558-496f-96f2-224f013cb587)
+![Architecture Diagram](DevOps Project: Game Day Notification Solution — using Lambda, SNS & EventBridge)
 
 
-Technologies
+**Technologies**
 Cloud Provider: AWS
 Core Services: SNS, Lambda, EventBridge
 External API: NBA Game API (SportsData.io)
 Programming Language: Python 3.x
 IAM Security:
 Least privilege policies for Lambda, SNS, and EventBridge.
-Project Structure
+
+
+**Project Structure**
 game-day-notifications/
 ├── src/
 │   ├── gd_notifications.py          # Main Lambda function code
@@ -37,8 +39,8 @@ game-day-notifications/
 └── README.md                        # Project documentation
 
 
-Setup Instructions
-Clone the Repository
+**Setup Instructions**
+**Clone the Repository**
 git clone https://github.com/ifeanyiro9/game-day-notifications.git
 cd game-day-notifications
 Create an SNS Topic
@@ -47,22 +49,24 @@ Navigate to the SNS service.
 Click Create Topic and select Standard as the topic type.
 Name the topic (e.g., gd_topic) and note the ARN.
 Click Create Topic.
-Add Subscriptions to the SNS Topic
-After creating the topic, click on the topic name from the list.
-Navigate to the Subscriptions tab and click Create subscription.
-Select a Protocol:
-For Email:
-Choose Email.
-Enter a valid email address.
-For SMS (phone number):
-Choose SMS.
-Enter a valid phone number in international format (e.g., +1234567890).
-Click Create Subscription.
-If you added an Email subscription:
-Check the inbox of the provided email address.
-Confirm the subscription by clicking the confirmation link in the email.
-For SMS, the subscription will be immediately active after creation.
-Create the SNS Publish Policy
+
+**Add Subscriptions to the SNS Topic**
+1. After creating the topic, click on the topic name from the list.
+2. Navigate to the Subscriptions tab and click Create subscription.
+3. Select a Protocol:
+   For Email:
+   a. Choose Email.
+   b. Enter a valid email address.
+   For SMS (phone number):
+   a. Choose SMS.
+   b. Enter a valid phone number in international format (e.g., +1234567890).
+4. Click Create Subscription.
+5. If you added an Email subscription:
+   a. Check the inbox of the provided email address.
+   b. Confirm the subscription by clicking the confirmation link in the email.
+6. For SMS, the subscription will be immediately active after creation.
+
+**Create the SNS Publish Policy**
 Open the IAM service in the AWS Management Console.
 Navigate to Policies → Create Policy.
 Click JSON and paste the JSON policy from gd_sns_policy.json file
