@@ -28,6 +28,7 @@ Least privilege policies for Lambda, SNS, and EventBridge.
 
 
 **Project Structure**
+
 game-day-notifications/
 ├── src/
 │   ├── gd_notifications.py          # Main Lambda function code
