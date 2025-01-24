@@ -1,0 +1,2 @@
+# Lugardesosa-DevOps-Project-Game-Day-Notification-Solution-using-Lambda-SNS-EventBridge
+Building a serverless Game Day Notification system utilizing AWS services like Lambda functions, Amazon SNS, and Amazon EventBridge. External sports data APIs were integrated to provide real-time game updates and deliver timely notifications to users either via mail, SMS etc. using an Event Driven Architecture.
