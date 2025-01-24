@@ -19,8 +19,7 @@ This project is an alert system that sends real-time NBA game day score notifica
 ---
 
 ## **Technical Architecture**
-![Architecture Diagram](Lugardesosa-DevOps-Project-Game-Day-Notification-Solution-using-Lambda-SNS-EventBridge
-/DevOps Project Game Day Notification Solution — using Lambda, SNS & EventBridge.png)
+![Architecture Diagram](https://github.com/Lugardesosa/Lugardesosa-DevOps-Project-Game-Day-Notification-Solution-using-Lambda-SNS-EventBridge/blob/main/DevOps%20Project%20Game%20Day%20Notification%20Solution%20%E2%80%94%20using%20Lambda,%20SNS%20&%20EventBridge.png?raw=true))
 
 
 ---
